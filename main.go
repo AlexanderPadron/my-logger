@@ -2,14 +2,14 @@ package mylogger
 
 import "log"
 
-func logInfo(mensaje string) {
+func LogInfo(mensaje string) {
 	log.Printf("INFO - %v", mensaje)
 }
 
-func logWarning(mensaje string) {
+func LogWarning(mensaje string) {
 	log.Printf("WARNING - %v", mensaje)
 }
 
-func logError(mensaje string) {
+func LogError(mensaje string) {
 	log.Printf("ERROR - %v", mensaje)
 }
